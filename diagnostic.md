@@ -30,7 +30,7 @@ x = y
 y = 10
 ```
 
-After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
+After each line of code executes, what are the values of x and y?  Add a comment after each line with the values of x and y. Do the variables change?  Do their values?
 
 <!-- solution below -->
 
