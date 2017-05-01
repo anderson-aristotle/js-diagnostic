@@ -12,25 +12,25 @@ Please list the JavaScript primitives and give one example of each.
 ## Question 2
 
 ```js
-let c = 5;
-let d = 2;
-c = c + d;
+let c = 5
+let d = 2
+c = c + d
 
 ```
 
-After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d;` and explain what they do.
+After this code executes, what is the value of c?  Please identify the operators in the last line of this program `c = c + d` and explain what they do.
 
 
 ## Question 3
 
 ```js
-let x = 4;
-let y = 3;
-x = y;
-y = 10;
+let x = 4
+let y = 3
+x = y
+y = 10
 ```
 
-After each line of code executes, what are the values of x and y?  Do the variables change?  Do their values?
+After each line of code executes, what are the values of x and y?  Add a comment after each line with the values of x and y. Do the variables change?  Do their values?
 
 <!-- solution below -->
 
@@ -38,27 +38,27 @@ After each line of code executes, what are the values of x and y?  Do the variab
 ## Question 4
 
 ```js
-let weather;
-weather = "sunny";
-weather === "sunny";
+let weather
+weather = "sunny"
+weather === "sunny"
 ```
 
-What are the values of these expressions?  Explain your answers.
+What do these expressions evaluate to?  Explain your answers.
 
 
 ## Question 5
 
 ```js
 //We'll learn about require later in the course
-const ask = require('../lib/ask.js');
+const ask = require('../lib/ask.js')
 
-let answer = 'not empty';
+let answer = 'not empty'
 
 while (answer !== '') {
-  answer = ask("Guess my secret? ");
+  answer = ask("Guess my secret? ")
   if (answer === 'SeCrEt') {
-   console.log("You guessed it!");
-   break;
+   console.log("You guessed it!")
+   break
   }
 }
 ```
